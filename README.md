@@ -6,7 +6,7 @@ This includes html, css, and flexbox.
 
 Alvaro Mejia
 
-Images used
+Images used:
 https://www.pexels.com/photo/a-capybara-with-a-hat-14191547/
   by Yu-Chen Huang
 
@@ -16,3 +16,6 @@ https://www.pexels.com/photo/close-up-photo-of-a-capybara-sleeping-6359552/
 
 https://www.pexels.com/photo/a-brown-capybara-on-water-5479610/
   by Magali Guimarães
+
+https://www.pexels.com/photo/water-falls-in-the-middle-of-the-forest-3836292/
+  by Diego Madrigal

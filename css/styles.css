@@ -9,12 +9,12 @@ p{
   margin: 0;
   padding: 0;
 }
-h3{
+h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
 }
 
-.header, .footer{
+.header-out, .footer{
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -26,10 +26,18 @@ h3{
   padding: 32px;
 }
 
-.header{
+.header-out{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-in{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  width: 1000px;
+
 }
 
 ul{

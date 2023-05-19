@@ -3,6 +3,7 @@ body{
   flex-direction: column;
   justify-content: space-between;
   margin: 0;
+  padding: 0;
   min-height: 100vh;
 }
 p{
@@ -13,12 +14,21 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
 }
+ul{
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+}
 
+/*header and footer*/
 .header-out, .footer{
   background-color: #1f2937;
   color: #f9faf8;
 }
 
+/*footer*/
 .footer{
   display: flex;
   justify-content: center;
@@ -26,42 +36,57 @@ h1,h2,h3,h4,h5,h6{
   padding: 32px;
 }
 
+/*space around header content*/
 .header-out{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*All content in header*/
 .header-in{
   display: flex;
   flex-direction: column;
-
+  gap: 24px;
   width: 1000px;
-
 }
 
-ul{
-  list-style: none;
+/*Text and image in header*/
+.header-content{
   display: flex;
-  gap: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 42px;
 }
 
+/*Flex text in header*/
+.header-content > div{
+  display: flex;
+  flex-direction: column;
+}
+
+/*Top bar with links and logo*/
 .top{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 72px;
 }
 
+/*Flexbox below header*/
 .imgcontent{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/*Images of capybaras*/
 .images{
   display: flex;
 }
 
+/*The quote flexbox*/
 .quote{
   background-color: #e5e7eb;
   font-size: 36px;
@@ -74,6 +99,7 @@ ul{
   margin-top: 48px;
 }
 
+/*Flex item box*/
 .quote-box{
   display: flex;
   flex-direction: column;
@@ -83,21 +109,25 @@ ul{
   padding: 100px;
 }
 
+/*Target child*/
 .quote-box > h3{
   align-items: flex-end;
 }
 
+/*The quoter*/
 .name{
   display: flex;
   justify-content: end;
 }
 
+/*White space around actionbox*/
 .action{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*Content of the actionbox*/
 .action-box{
   background-color: #3882f6;
   color: #f9faf8;
@@ -111,17 +141,19 @@ ul{
   flex: 0 1 auto;
 }
 
-
+/*Images sizing of capybara images*/
 .capy{
   width: 200px;
-  height: auto;
+  height: 200px;
 }
 
+/*Image sizing of rain forest img*/
 .forest{
-  width: 500px;
-  height: auto;
+  width: 630px;
+  height: 200px;
 }
 
+/*Sign up button styling*/
 .signup{
   color: #f9faf8;
   background-color: #3882f6;
@@ -132,6 +164,7 @@ ul{
   font-size: medium;
 }
 
+/*Targets button in action box*/
 .signup.action{
   border-color: #f9faf8;
   border-style: solid;

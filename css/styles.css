@@ -21,6 +21,11 @@ ul{
   padding: 0;
   margin: 0;
 }
+a{
+  list-style-type: none;
+  color: #f9faf8;
+  text-decoration: none;
+}
 
 /*header and footer*/
 .header-out, .footer{
@@ -63,18 +68,21 @@ ul{
 .header-content > div{
   display: flex;
   flex-direction: column;
+  margin-bottom: 64px;
 }
 
 .header-content > div > h2{
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  width: 300px;
 }
 
 .header-content > div > p{
   font-size: 18px;
   color: #e5e7eb;
   font-weight: lighter;
+  margin-bottom: 12px;
 }
 
 /*Top bar with links and logo*/
@@ -91,6 +99,7 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 64px;
 }
 
 /*Images of capybaras*/

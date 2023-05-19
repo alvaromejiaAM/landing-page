@@ -65,6 +65,18 @@ ul{
   flex-direction: column;
 }
 
+.header-content > div > h2{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.header-content > div > p{
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+
 /*Top bar with links and logo*/
 .top{
   display: flex;
@@ -82,17 +94,17 @@ ul{
 }
 
 /*Images of capybaras*/
-.images{
+.capyimages{
   display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 67px;
+  align-items: center;
 }
 
 /*The quote flexbox*/
 .quote{
   background-color: #e5e7eb;
-  font-size: 36px;
-  font-weight: light;
-  font-style: italic;
-  color: #1f2937;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,14 +116,21 @@ ul{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 800px;
+  align-items: flex-end;
+  width: 1000px;
   padding: 100px;
 }
 
 /*Target child*/
 .quote-box > h3{
-  align-items: flex-end;
+  font-size: 24px;
+}
+
+.quote-box > p{
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
 }
 
 /*The quoter*/
@@ -145,6 +164,8 @@ ul{
 .capy{
   width: 200px;
   height: 200px;
+  border: 5px #3882f6 solid;
+  border-radius: 16px;
 }
 
 /*Image sizing of rain forest img*/
